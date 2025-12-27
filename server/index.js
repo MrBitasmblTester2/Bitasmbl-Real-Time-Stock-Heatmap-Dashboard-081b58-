@@ -1,0 +1,1 @@
+const {readFileSync}=require('fs');const typeDefs=readFileSync('./graphql/schema.graphql','utf8');console.log('Start GraphQL with',typeDefs.length,'chars');
