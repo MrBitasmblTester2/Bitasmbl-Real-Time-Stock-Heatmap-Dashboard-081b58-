@@ -1,0 +1,1 @@
+const store=require('../store/stocks-store');module.exports={Query:{stocks:()=>store.getAll()},Subscription:{stockUpdates:{subscribe:()=>{}}}};
